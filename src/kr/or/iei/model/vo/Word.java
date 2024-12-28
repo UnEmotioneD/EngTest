@@ -9,6 +9,12 @@ public class Word {
         super();
     }
 
+    public Word(String word, String def1, String def2) {
+        this.word = word;
+        this.def1 = def1;
+        this.def2 = def2;
+    }
+
     public String getWord() {
         return word;
     }
@@ -30,12 +36,6 @@ public class Word {
     }
 
     public void setDef2(String def2) {
-        this.def2 = def2;
-    }
-
-    public Word(String word, String def1, String def2) {
-        this.word = word;
-        this.def1 = def1;
         this.def2 = def2;
     }
 

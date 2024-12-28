@@ -1,19 +1,14 @@
 package kr.or.iei.controller;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.Scanner;
-
 import kr.or.iei.model.vo.EnglishInterface;
 import kr.or.iei.model.vo.Word;
 import kr.or.iei.model.vo.WordWithIndex;
 import kr.or.iei.viewer.EnglishViewer;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
 
 public class EnglishController implements EnglishInterface {
     ArrayList<Word> list;

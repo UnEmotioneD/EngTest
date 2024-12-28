@@ -1,9 +1,9 @@
 package kr.or.iei.viewer;
 
+import kr.or.iei.model.vo.WordWithIndex;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-
-import kr.or.iei.model.vo.WordWithIndex;
 
 public class EnglishViewer {
     Scanner sc;
