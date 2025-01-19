@@ -20,4 +20,5 @@ public class WordWithIndex extends Word {
     public String toString() {
         return index + "\t" + super.toString();
     }
+
 }

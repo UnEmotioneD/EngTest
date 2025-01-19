@@ -7,4 +7,5 @@ public class Start {
         EnglishController englishController = new EnglishController();
         englishController.mainMethod();
     }
+
 }

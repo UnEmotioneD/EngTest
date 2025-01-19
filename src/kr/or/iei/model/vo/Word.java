@@ -43,4 +43,5 @@ public class Word {
     public String toString() {
         return word + "\t" + def1 + "\t" + def2;
     }
+
 }

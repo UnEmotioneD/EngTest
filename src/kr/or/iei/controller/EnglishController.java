@@ -138,9 +138,8 @@ public class EnglishController implements EnglishInterface {
                     break;
                 default:
                     for (Word word : list) {
-                        if (word.getWord().equalsIgnoreCase(searchWord) || word.getDef1().equalsIgnoreCase(searchWord)
-                                || word.getDef2().equalsIgnoreCase(searchWord)) {
-                            System.out.println(word.toString());
+                        if (word.getWord().equalsIgnoreCase(searchWord) || word.getDef1().equalsIgnoreCase(searchWord) || word.getDef2().equalsIgnoreCase(searchWord)) {
+                            System.out.println(word);
                             found = true;
                         } else {
                             System.out.println("No such word");
@@ -184,8 +183,7 @@ public class EnglishController implements EnglishInterface {
         int j = 0;
         for (Word word : list) {
             for (int i = 0; i < word.getWord().length() - 2; i++) {
-                if (word.getWord().charAt(i) == firstChar && word.getWord().charAt(i + 1) == secondChar
-                        && word.getWord().charAt(i + 2) == thirdChar) {
+                if (word.getWord().charAt(i) == firstChar && word.getWord().charAt(i + 1) == secondChar && word.getWord().charAt(i + 2) == thirdChar) {
                     j++;
                     wordsWithIndex.add(new WordWithIndex(word.getWord(), word.getDef1(), word.getDef2(), j));
                 }
@@ -307,13 +305,12 @@ public class EnglishController implements EnglishInterface {
 
             } else {
                 System.out.println("Canceling it ...");
-                return;
             }
 
         } else {
             for (Word word : list) {
                 if (word.getWord().equalsIgnoreCase(editWord)) {
-                    System.out.println(word.toString());
+                    System.out.println(word);
                     found = true;
                     break;
                 }
@@ -326,4 +323,5 @@ public class EnglishController implements EnglishInterface {
             }
         }
     }
+
 }

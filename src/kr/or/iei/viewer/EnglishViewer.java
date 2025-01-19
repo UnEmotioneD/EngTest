@@ -79,4 +79,5 @@ public class EnglishViewer {
         System.out.print(list.get(chosenIndex).toString());
         System.out.println();
     }
+
 }
