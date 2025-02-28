@@ -1,4 +1,9 @@
+### Eclipse IDE ###
 .classpath
 .project
 .settings/
 bin/
+
+### IntelliJ ###
+EngTest.iml
+.idea/
