@@ -1,5 +1,4 @@
-/engTst.iml
-/bin/
-.settings/
 .classpath
 .project
+.settings/
+bin/
