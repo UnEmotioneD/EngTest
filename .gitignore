@@ -1,1 +1,4 @@
 /engTst.iml
+/bin/
+.settings/
+.classpath
