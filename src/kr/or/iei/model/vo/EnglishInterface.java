@@ -1,16 +1,16 @@
 package kr.or.iei.model.vo;
 
 public interface EnglishInterface {
-    void mainMethod();
+	void mainMethod();
 
-    void search();
+	void search();
 
-    void add();
+	void add();
 
-    void test();
+	void test();
 
-    void reTest();
+	void reTest();
 
-    void edit();
+	void edit();
 
 }
